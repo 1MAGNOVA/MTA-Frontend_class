@@ -1,0 +1,38 @@
+*{
+    background-color: black;
+}
+p#logo-text{
+    color: white;
+    align-self: center;
+    text-align: right;
+    margin-left: 20px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+img.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+h1.logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-self: center;
+    margin-left: 30%;
+    white-space: nowrap;
+}
+ ol.nav-bar > li > a{
+    text-decoration:none ;
+}
