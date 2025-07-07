@@ -155,6 +155,70 @@ button.about-1:hover{
     color: wheat;
     padding:20px;
 } 
+.contact-div-1{
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px ;
+    margin: 20px;
+    gap: 2px;
+}
+.contact-div-right{
+    border-radius: 0.5rem;
+    margin-top: 2%;
+    margin-left: -15%;
+    margin-bottom: 10%;
+    width: 50%;
+}
+img.contact-right{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+.contact-div-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+fieldset.contact {
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    min-height: 80%;
+    background-color: rgba(000, 000, 000,0.9);
+    align-content: center;
+    max-width:80%;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+h1.contact{ 
+    font-size: xx-large;
+    font-weight:lighter;
+    font-family: 'Trebuchet MS';
+    color: white;
+    align-self: center;
+}
+form > input#name ,input#email,input#message {
+    margin: 2px;
+    border-style: none;
+    background-color: rgba(000, 000, 000,0.9);
+    align-self: center;
+
+}
+button.contact{
+    height: 20%;
+    margin: 10px;
+    width: 50px;
+    align-self: center;
+    border-radius: 0.3rem;
+}
+
 .footer>h4{
     background-color: wheat;
     color: #000;
