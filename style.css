@@ -103,6 +103,15 @@ button.hero-sec-1:hover,button.hero-sec-2:hover {
     text-transform: uppercase;
     background-color: wheat;
 }
+.about-container{
+    display: block;
+}
+.about-container> h1{
+    justify-content: center;
+}
+.about-container> h1>a{
+    text-decoration: none;
+}
 .about{
     background-color: wheat;
     display: flex;
@@ -146,3 +155,13 @@ button.about-1:hover{
     color: wheat;
     padding:20px;
 } 
+.footer>h4{
+    background-color: wheat;
+    color: #000;
+    text-align: center;
+    padding: 5px;;
+    font-weight: 100;
+    border-radius: 10px;
+    min-width: 95%;
+    justify-self: center;
+}
