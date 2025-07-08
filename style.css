@@ -2,6 +2,7 @@ body {
     background-color:black;
    
 }
+
 p#logo-text{
     color: white;
     align-self: center;
@@ -155,7 +156,7 @@ button.about-1:hover{
     color: wheat;
     padding:20px;
 } 
-.contact-div-1{
+.contact-div{
     background-color: wheat;
     display: flex;
     flex-direction: row;
@@ -163,7 +164,7 @@ button.about-1:hover{
     margin: 20px;
     gap: 2px;
 }
-.contact-div-right{
+.contact-right{
     border-radius: 0.5rem;
     margin-top: 2%;
     margin-left: -15%;
@@ -171,31 +172,57 @@ button.about-1:hover{
     width: 50%;
 }
 img.contact-right{
-    border-radius: 10px;
-    width: 300px;
-    height: 200px;
-    margin: 10px;
+    border-radius: 7px;
+    width: 450px;
+    height: 350px;
+    margin-right: 9rem;
+    position: relative;
+    top:0;
+    right:50px;
+    z-index: 2;
+    transform: none;
 }
-.contact-div-left{
+img.contact-right:hover{
+    border-radius: 7px;
+    width: 450px;
+    height: 350px;
+    margin-right: 9rem;
+    position: relative;
+    top:0;
+    right:50px;
+    z-index: 2;
+    transform: scale(150%);
+}
+
+
+
+.contact-left{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-left: 7rem;
+    margin-top: 8rem;
 }
 fieldset.contact {
-    border-radius: 15px;
     margin-left: 20px;
-    margin-top: 15px;
-    min-height: 80%;
-    background-color: rgba(000, 000, 000,0.9);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 450px;
+    background-color: rgb(000, 000, 000);
     align-content: center;
-    max-width:80%;
-    
+    justify-self: center;
+    padding-top:4rem;
+    position: relative;
+    z-index: 3;
 }
 form{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-top: 10px;
 
+    
+   
 }
 h1.contact{ 
     font-size: xx-large;
@@ -203,20 +230,68 @@ h1.contact{
     font-family: 'Trebuchet MS';
     color: white;
     align-self: center;
+    text-align: center;
 }
-form > input#name ,input#email,input#message {
-    margin: 2px;
-    border-style: none;
-    background-color: rgba(000, 000, 000,0.9);
-    align-self: center;
-
+input#contact-name, input#contact-email, input#contact-feedback{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-style: 1px solid #ffff;
+    background-color: aliceblue;
 }
 button.contact{
     height: 20%;
-    margin: 10px;
-    width: 50px;
+    margin-top: 15px;
+    width: 5rem;
     align-self: center;
     border-radius: 0.3rem;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+}
+section.contact >.contact-div-all{
+    display: block
+}
+.contact-footer{
+    background-color: black;
+    max-width:fit-content;
+    position: relative;
+    bottom:100px;
+    left: 200px;
+    z-index: 7;
+    border-radius: 15px;
+    margin-left: 6rem;
+
+}
+.footer-div{
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    transform: (0deg);
+}
+
+.footer-div:hover{
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+    transform: rotate(1.5deg);
+    
+}
+
+
+h1#call-us,h1#location, h1#hours, ol#call-us, ol#hours, ol#location{
+    font-size: small;
+    font-weight: 200;
+    color: wheat;
+    text-align: center;
+    list-style: none;
+    
+}
+h1#call-us,h1#location, h1#hours{
+    text-align: center;
 }
 
 .footer>h4{
